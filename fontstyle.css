@@ -1,4 +1,10 @@
-#headfont{
-  color: orange;
-  background-color: pink;
+#article1{
+  color: purple;
+  font-size: 30;
+  text-align: right;
+}
+#article2{
+  color: purple;
+  font-size: 30;
+  text-align: left;
 }
