@@ -1,8 +1,12 @@
-#relative{
+.relative{
   background-color: coral;
-  position: relative;
-  top: 0px;
-  left: 0px;
   overflow: visible;
   text-align: center;
+  height: 100px;
+  vertical-align: middle;
+
+}
+
+.relative a{
+  margin: 0 auto;
 }
