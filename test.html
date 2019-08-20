@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="fontstyle.css">
-<link rel="stylesheet" type="text/css" href="layout.css">
-<style type="text/css">
-a:link{color: black;}
-a:visited{color: purple;}
-a:hover{color: blue;}
-a:active{color: red;}
-</style>
-<title>여름방학프로젝트</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="fontstyle.css">
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <style type="text/css">
+  a:link{color: black;}
+  a:visited{color: purple;}
+  a:hover{color: blue;}
+  a:active{color: red;}
+  *{margin: 0;padding: 0;}
+  ul,li{list-style: none;}
+  </style>
+  <title>여름방학프로젝트</title>
 </head>
 <body>
-<div class="relative">
-  <a style="color:orangered; font-size:40px;font-style:italic;">메이플스토리 공략 모음</a>
-</div>
+
+  <div class="relative">
+    <a style="color:orangered; font-size:40px;font-style:italic;">메이플스토리 공략 모음</a>
+  </div>
     <hr>
-    <h3>이 자리에 슬라이드 들어갈 것</h3>
+    <div id="slide">
+      <input type="radio" name="pos" id="pos1" checked>
+      <input type="radio" name="pos" id="pos2">
+      <input type="radio" name="pos" id="pos3">
+      <input type="radio" name="pos" id="pos4">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <p class="pos">
+        <label for="pos1"></label>
+        <label for="pos2"></label>
+        <label for="pos3"></label>
+        <label for="pos4"></label>
+      </p>
+    </div>
     <hr>
   <a href="http://www.naver.com">공략글1</a>
   <a href="http://www.google.com">공략글2</a>
