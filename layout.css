@@ -38,25 +38,25 @@ after {
 }
 
 #slide li:nth-child(1) {
-  background-image: url("C:/Users/SouL KIM/Desktop/image/slide1.jpg");
+  background-image: url("image/slide1.jpg");
   background-size: cover;
   max-width: 100%;
 }
 
 #slide li:nth-child(2) {
-  background-image: url("C:/Users/SouL KIM/Desktop/image/slide2.jpg");
+  background-image: url("image/slide2.jpg");
   background-size: cover;
   max-width: 100%;
 }
 
 #slide li:nth-child(3) {
-  background-image: url("C:/Users/SouL KIM/Desktop/image/slide3.jpg");
+  background-image: url("image/slide3.jpg");
   background-size: cover;
   max-width: 100%;
 }
 
 #slide li:nth-child(4) {
-  background-image: url("C:/Users/SouL KIM/Desktop/image/slide4.jpg");
+  background-image: url("image/slide4.jpg");
   background-size: cover;
   max-width: 100%;
 }
