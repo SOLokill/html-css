@@ -27,7 +27,7 @@
 
 after {
   content: "";
-  display: block;
+  display: flex;
   clear: both;
 }
 
@@ -116,15 +116,6 @@ after {
 #pos1:checked~.pos>label:nth-child(1) {
   background: white;
 }
-
-#wrapper {
-  display: table;
-}
-
-#content {
-  display: table-cell;
-  vertical-align: middle;
-}
 .paper{
   width: 100%;
 }
@@ -136,4 +127,24 @@ after {
   text-align: center;
   margin: 0 auto;
   width: 80%;
+}
+.login{
+  text-align: center;
+  margin-top: 30%;
+}
+.logincontainer{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: #ddd;
+  margin: 10%;
+  left: 30%;
+}
+.logincontainer button{
+  position: relative;
+  left: 70%;
+}
+.login h1{
+  text-align: left;
+  margin-bottom: 10%;
 }
