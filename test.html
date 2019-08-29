@@ -10,11 +10,6 @@
     a:link {
       color: black;
     }
-
-    a:visited {
-      color: purple;
-    }
-
     a:hover {
       color: blue;
     }
@@ -24,7 +19,7 @@
     }
 
     * {
-      margin: 0;
+      margin: 10;
       padding: 0;
     }
 
@@ -47,16 +42,17 @@
   <div style="width:100%;">
     <div class="relative">
       <br><br>
-      <a style="color:white; font-size:40px;font-family: 'Permanent Marker', cursive;">메이플스토리 공략 모음</a>
+      <a style="color:white; font-size:40px;font-family: "Trebuchet MS";"><strong>메이플스토리 공략 모음</strong></a>
     </div>
-    <nav>
-      <ul>
-        <li><a href="notice.html">공지사항</a></li>
-        <li><a href="login.html" target="_parent" title="로그인 화면으로 넘어갑니다.">로그인</a></li>
-        <li><a href="board.html">게시판</a></li>
-      </ul>
-    </nav>
-
+    <div style="width:100%;">
+      <nav class="topMenu">
+        <ul>
+          <li><a class="menulink" href="notice.html">공지사항</a></li>
+          <li><a class="menulink" href="login.html">로그인</a></li>
+          <li><a class="menulink" href="board.html">게시판</a></li>
+        </ul>
+      </nav>
+    </div>
     <div id="slide">
       <input type="radio" name="pos" id="pos1" checked>
       <input type="radio" name="pos" id="pos2">
